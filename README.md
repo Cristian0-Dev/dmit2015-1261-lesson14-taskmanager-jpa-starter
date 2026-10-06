@@ -105,7 +105,7 @@ For this practice project, use a file-based H2 database stored in the project `d
 Example database URL:
 
 ```text
-jdbc:h2:file:./data/lesson12-taskmanager-jpa-db
+jdbc:h2:file:./data/lesson14-taskmanager-jpa-db
 ```
 
 ---
@@ -280,7 +280,7 @@ Use the same JDBC URL, username, and password configured in `ApplicationConfig.j
 Example:
 
 ```text
-JDBC URL: jdbc:h2:file:./data/lesson12-taskmanager-jpa-db
+JDBC URL: jdbc:h2:file:./data/lesson14-taskmanager-jpa-db
 User Name: user2015
 Password: Password2015
 ```
