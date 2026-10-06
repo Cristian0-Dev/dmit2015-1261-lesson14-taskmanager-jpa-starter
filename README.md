@@ -1,6 +1,6 @@
 # Lesson 12 TaskManager JPA Practice
 
-This project is the practice activity for **Lesson 12: Introduction to Jakarta Persistence**.
+This project is the practice activity for **Lesson 14: Introduction to Jakarta Persistence**.
 
 The starter project already contains a working Jakarta Faces TaskManager application that uses an in-memory service implementation.
 
