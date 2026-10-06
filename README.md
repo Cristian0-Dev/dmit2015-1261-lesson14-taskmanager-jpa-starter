@@ -1,6 +1,6 @@
-# Lesson 12 TaskManager JPA Practice
+# Lesson 14 TaskManager JPA Practice
 
-This project is the practice activity for **Lesson 12: Introduction to Jakarta Persistence**.
+This project is the practice activity for **Lesson 14: Introduction to Jakarta Persistence**.
 
 The starter project already contains a working Jakarta Faces TaskManager application that uses an in-memory service implementation.
 
@@ -12,7 +12,7 @@ This practice prepares you for **Assignment 3**, where you will apply the same p
 
 ## How to Use This Repository
 
-This repository is a public starter project for the Lesson 12 TaskManager JPA practice activity.
+This repository is a public starter project for the Lesson 14 TaskManager JPA practice activity.
 
 Do **not** clone the original repository directly unless you only want a read-only copy. If you clone the original repository, you will not be able to push your changes back to GitHub.
 
@@ -29,7 +29,7 @@ Important:
 
 - This practice repository is **not** your Assignment 3 submission.
 - Assignment 3 must be completed in your separate GitHub Classroom Assignment 3 repository.
-- Do not submit your Lesson 12 practice fork for Assignment 3.
+- Do not submit your Lesson 14 practice fork for Assignment 3.
 
 
 ## Important
@@ -293,7 +293,7 @@ Do not use it as a replacement for the JSF page or service layer.
 
 ## Practice Checkpoint
 
-Before asking for Assignment 3 troubleshooting help, be prepared to show your Lesson 12 practice progress.
+Before asking for Assignment 3 troubleshooting help, be prepared to show your Lesson 14 practice progress.
 
 Minimum checkpoint:
 
