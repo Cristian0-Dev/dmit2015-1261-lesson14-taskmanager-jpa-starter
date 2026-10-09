@@ -62,6 +62,7 @@ public class TaskJpaService implements TaskService {
             existingTask.setDescription(task.getDescription());
             existingTask.setPriority(task.getPriority());
             existingTask.setDone(task.isDone());
+
             task = entityManager.merge(existingTask);
         }
         return task;
@@ -83,9 +84,14 @@ public class TaskJpaService implements TaskService {
     @Override
     public long count() {
         return (long) entityManager.createQuery("""
-        select count(t)
-        from Task t
+select count(t)
+from Task t
 """).getSingleResult();
+    }
+
+    @Override
+    public void deleteAllTasks() {
+        entityManager.createQuery("DELETE FROM Task t").executeUpdate();
     }
 
 }
